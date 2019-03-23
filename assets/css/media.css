@@ -1,0 +1,21 @@
+@media screen and (max-width: 992px) {
+	.col-4 a:hover::before{
+		top:100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.col-4:nth-child(-n+4) a:hover::before{
+		top:-100%;
+	}
+	.col-4:nth-child(n+5) a:hover::before{
+		top:100%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.col-4:nth-child(-n+3) a:hover::before{
+		top:-100%;
+	}
+	.col-4:nth-child(n+4) a:hover::before{
+		top:100%;
+	}
+}

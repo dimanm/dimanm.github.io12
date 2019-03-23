@@ -1,0 +1,12 @@
+@keyframes menu-item{
+	0%{
+		color: blue;
+	}
+	100%{
+		color:red;
+	}
+}
+header a:hover{
+	animation-name: menu-item;
+	animation-duration: 1s;
+}
